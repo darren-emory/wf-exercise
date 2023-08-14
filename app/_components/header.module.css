@@ -1,0 +1,9 @@
+.header {
+    background-image: url("https://images.ctfassets.net/qoogxuixbod8/2IDumzVFOU3suEYSKE0PEg/a7f53648786084f5e5c4689676521b45/bg.png?w=2524");
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+  }
+  
