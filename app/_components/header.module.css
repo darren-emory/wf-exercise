@@ -30,11 +30,7 @@
   text-transform: uppercase;
 }
 
-.mainNav nav ul li.buttonCta a {
-  border-radius: 3.125rem;
-  padding: 1.25rem 2.25rem;
-  background: #00d2d2;
-  color: #282832;
+.mainNav nav ul li.buttonCta {
   text-align: center;
   font-family: DM Sans;
   font-size: 0.875rem;
@@ -42,6 +38,14 @@
   font-weight: 700;
   line-height: normal;
   text-transform: capitalize;
+}
+
+.mainNav nav ul li.buttonCta a {
+  border-radius: 3.125rem;
+  font-size: 1rem;
+  padding: 1.25rem 2.5rem;
+  background: #00d2d2;
+  color: #282832;
 }
 
 .navLogo {

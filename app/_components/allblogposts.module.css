@@ -1,0 +1,100 @@
+.blogPostFilters {
+  margin-bottom: 5.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterContainer {
+  position: relative;
+}
+
+.blogPostFilters label {
+  color: #282832;
+  font-family: "Space Mono", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  display: block;
+  font-weight: 400;
+  line-height: 120%; /* 1.05rem */
+  text-transform: uppercase;
+  margin-bottom: 1.8rem;
+}
+
+.blogPostFilters input {
+  border: 0.5px solid #6a6a79;
+  background: #f6f5f1;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  padding: 1rem;
+  line-height: 120%; /* 1.2rem */
+  width: 17.5rem;
+}
+
+.blogPostFilters input:focus {
+  outline: none;
+}
+
+.blogPostFilters input::placeholder {
+  color: #9e9e9e;
+}
+
+.blogPostFilters button.filterConfirmButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  bottom: 0.95rem;
+}
+
+.blogPostGridHeadline {
+  color: #282832;
+  font-family: DM Sans;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 3rem */
+  margin-bottom: 2.6rem;
+}
+
+.blogPostGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-bottom: 5.5rem;
+}
+
+.blogPostGrid article {
+  background-color: #f1f1f1;
+}
+
+.blogPostGrid article .blogPostThumbnail {
+  width: 100%;
+  height: 15rem;
+}
+
+.blogPostMeta {
+  padding: 1rem;
+}
+
+.blogPostGrid article h4 {
+  color: #282832;
+  font-family: DM Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  line-height: 120%; /* 1.5rem */
+}
+
+.blogPostGrid article h5 {
+  color: #282832;
+  font-family: DM Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 0.9rem */
+}
