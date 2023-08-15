@@ -8,7 +8,7 @@ export default function WFLogo(props: any) {
       y={0}
       viewBox="0 0 4036.9 700"
       xmlSpace="preserve"
-      className="jss7"
+      className={props.className}
       {...props}
     >
       <style>{".wf-primary-logo-horizontal-teal_svg__st1{fill:#00d2d2}"}</style>

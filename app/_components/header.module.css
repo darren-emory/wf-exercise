@@ -1,9 +1,64 @@
 .header {
-    background-image: url("https://images.ctfassets.net/qoogxuixbod8/2IDumzVFOU3suEYSKE0PEg/a7f53648786084f5e5c4689676521b45/bg.png?w=2524");
-    align-items: center;
-    flex-direction: column;
-    background-size: cover;
-    justify-content: center;
-    background-position: center;
-  }
-  
+  background-color: #282832;
+  padding: 3.75rem 0;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.mainNav nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.mainNav nav ul li {
+  margin: 0 1.2rem;
+  color: #fff;
+  font-family: Space Mono;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 1.05rem */
+  text-transform: uppercase;
+}
+
+.mainNav nav ul li.buttonCta a {
+  border-radius: 3.125rem;
+  padding: 1.25rem 2.25rem;
+  background: #00d2d2;
+  color: #282832;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.navLogo {
+  width: 17.5rem;
+  height: 3.3rem;
+  flex-shrink: 0;
+}
+
+.pageTitleContainer {
+  padding-top: 8rem;
+}
+
+.pageTitleContainer h2 {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 4.8rem */
+}

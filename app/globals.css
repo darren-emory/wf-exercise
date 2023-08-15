@@ -11,6 +11,22 @@ body {
 }
 
 body {
+  font-size: 16px;
+}
+
+/* set up woff font from ../public/fonts */
+@font-face {
+  font-family: "Space Mono";
+  src: url("../public/fonts/0cf0e55cc0ef3777-s.p.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../public/fonts/3e3cf2ee9aa3f174-s.p.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 a {
@@ -18,9 +34,9 @@ a {
   text-decoration: none;
 }
 
-
 .innerContainer {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   max-width: 90rem;
 }

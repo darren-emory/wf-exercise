@@ -13,9 +13,9 @@ export default function Header(props: HeaderProps) {
     <header className={styles.header}>
       <div className="innerContainer">
         <section className={styles.mainNav}>
-          <div className="styles.nav-logo">
+          <div className="styles.navLogoContainer">
             <Link href="/">
-              <WFLogo />
+              <WFLogo className={styles.navLogo} />
             </Link>
           </div>
 
@@ -36,14 +36,14 @@ export default function Header(props: HeaderProps) {
               <li>
                 <Link href="#">Blog</Link>
               </li>
-              <li className={styles.cta}>
+              <li className={styles.buttonCta}>
                 <Link href="#">Contact Us</Link>
               </li>
             </ul>
           </nav>
         </section>
 
-        <section className={styles.pageTitle}>
+        <section className={styles.pageTitleContainer}>
           <h2>Blog Section Title</h2>
         </section>
       </div>
