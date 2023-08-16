@@ -38,22 +38,22 @@ export default function Header(props: HeaderProps) {
           <nav>
             <ul>
               <li>
-                <Link href="#">About Us</Link>
+                <Link href="/about">About Us</Link>
               </li>
               <li>
-                <Link href="#">Products/Services</Link>
+                <Link href="/products-services">Products/Services</Link>
               </li>
               <li>
-                <Link href="#">People</Link>
+                <Link href="/people">People</Link>
               </li>
               <li>
-                <Link href="#">Verticals</Link>
+                <Link href="/verticals">Verticals</Link>
               </li>
               <li>
-                <Link href="#">Blog</Link>
+                <Link href="/">Blog</Link>
               </li>
               <li className={styles.buttonCta}>
-                <Link href="#">Contact Us</Link>
+                <Link href="/contact-us">Contact Us</Link>
               </li>
             </ul>
           </nav>
@@ -62,7 +62,7 @@ export default function Header(props: HeaderProps) {
 
       <div className="innerContainer">
         <section className={styles.pageTitleContainer}>
-          <h2>Blog Section Title</h2>
+          <h2>{props.pageTitle}</h2>
         </section>
       </div>
     </header>
