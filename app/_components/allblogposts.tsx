@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import thumbnail from "../../public/images/josh-soriano-UmNl827g6AE-unsplas.jpg";
 import styles from "./allblogposts.module.css";
-import ArrowIcon from "../_utils/arrowIcon";
+import arrowIcon from "../../public/images/arrow.svg";
 
 export default function AllBlogPosts() {
   return (
@@ -15,7 +15,7 @@ export default function AllBlogPosts() {
             className={styles.filterConfirmButton}
             aria-label="Search For Posts"
           >
-            <ArrowIcon />
+            <Image src={arrowIcon} alt="arrow icon" />
           </button>
         </div>
 
@@ -26,7 +26,7 @@ export default function AllBlogPosts() {
             className={styles.filterConfirmButton}
             aria-label="Show Filtered Posts"
           >
-            <ArrowIcon />
+            <Image src={arrowIcon} alt="arrow icon" />
           </button>
         </div>
 
@@ -37,7 +37,7 @@ export default function AllBlogPosts() {
             className={styles.filterConfirmButton}
             aria-label="Subscribe For Updates"
           >
-            <ArrowIcon />
+            <Image src={arrowIcon} alt="arrow icon" />
           </button>
         </div>
       </section>

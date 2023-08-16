@@ -1,4 +1,5 @@
 .subpageContainer {
-  background: #f6f4f0;
-  padding: 3rem 0 20rem;
+  background-color: #282832;
+  padding: 3rem 0 0;
+  border-bottom: 1px solid #3e3e46;
 }
