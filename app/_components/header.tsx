@@ -1,5 +1,8 @@
+"use client";
+
+import { useState, useEffect } from "react";
+
 import Link from "next/link";
-import Image from "next/image";
 
 import styles from "./header.module.css";
 import WFLogo from "../_utils/wflogo";
@@ -9,15 +12,28 @@ interface HeaderProps {
 }
 
 export default function Header(props: HeaderProps) {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    // if window scrolls, set scrolled to true
+    document.addEventListener("scroll", () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    });
+  }, []);
+
   return (
     <header className={styles.header}>
-      <div className="innerContainer">
-        <section className={styles.mainNav}>
-          <div className="styles.navLogoContainer">
-            <Link href="/">
-              <WFLogo className={styles.navLogo} />
-            </Link>
-          </div>
+      <section
+        className={`${styles.mainNav} ${scrolled ? styles.scrolled : ""}`}
+      >
+        <div className={styles.innerNavContainer}>
+          <Link href="/">
+            <WFLogo className={styles.navLogo} />
+          </Link>
 
           <nav>
             <ul>
@@ -41,8 +57,10 @@ export default function Header(props: HeaderProps) {
               </li>
             </ul>
           </nav>
-        </section>
+        </div>
+      </section>
 
+      <div className="innerContainer">
         <section className={styles.pageTitleContainer}>
           <h2>Blog Section Title</h2>
         </section>

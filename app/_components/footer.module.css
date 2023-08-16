@@ -1,0 +1,140 @@
+.footer {
+  background-color: #282832;
+}
+
+.footer section {
+  gap: 100px;
+  width: 100%;
+  display: flex;
+  padding: 10rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footerColumn {
+  max-width: 550px;
+}
+
+.footer .footerColumnLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer h3 {
+  color: #f6f4f0;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.375rem; /* 108.571% */
+  margin-bottom: 1.5rem;
+}
+
+.footer .footerWfMark {
+  display: block;
+}
+
+.footer h5 {
+  color: #e1d7c8;
+  font-family: Space Mono;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem; /* 100% */
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.footer h5.footerNewsletterTitle {
+  margin-top: 3rem;
+}
+
+.footer h4 {
+  color: #f6f4f0;
+  font-family: DM Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.125rem; /* 141.667% */
+  margin-bottom: 1rem;
+}
+
+.footer h4 a:hover {
+  color: #00d2d2;
+}
+
+.footer .footerNewsletterForm {
+  position: relative;
+  width: 30rem;
+}
+
+.footer input {
+  background-color: #282832;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem 0;
+  color: #f6f4f0;
+  font-family: DM Sans;
+  width: 100%;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.125rem; /* 141.667% */
+  transition: 200ms all;
+  margin-bottom: 0.3rem;
+}
+
+.footer input:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.footer input:focus {
+  outline: none;
+}
+
+.footer input::placeholder {
+  color: rgb(105, 105, 105);
+}
+
+.footer button.footerSubmitButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.95rem;
+  padding: 0.75rem;
+  border-radius: 50%;
+}
+
+.footer button.footerSubmitButton:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.footer label {
+  color: #e1d7c8;
+  display: block;
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem; /* 155.556% */
+}
+
+.footerCopyright {
+  background: #282832;
+  box-shadow: 0px -1px 0px 0px #3e3e46;
+  padding: 2rem 0;
+}
+
+.footerCopyright h6 {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem; /* 155.556% */
+}

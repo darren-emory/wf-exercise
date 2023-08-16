@@ -11,7 +11,10 @@ export default function AllBlogPosts() {
         <div className={styles.filterContainer}>
           <label htmlFor="search">Search</label>
           <input type="text" id="search" placeholder="Search" />
-          <button className={styles.filterConfirmButton}>
+          <button
+            className={styles.filterConfirmButton}
+            aria-label="Search For Posts"
+          >
             <ArrowIcon />
           </button>
         </div>
@@ -19,7 +22,10 @@ export default function AllBlogPosts() {
         <div className={styles.filterContainer}>
           <label htmlFor="category">Filter By Categories</label>
           <input type="text" id="category" placeholder="Filter" />
-          <button className={styles.filterConfirmButton}>
+          <button
+            className={styles.filterConfirmButton}
+            aria-label="Show Filtered Posts"
+          >
             <ArrowIcon />
           </button>
         </div>
@@ -27,7 +33,10 @@ export default function AllBlogPosts() {
         <div className={styles.filterContainer}>
           <label htmlFor="email">Get The Latest Updates</label>
           <input type="text" id="email" placeholder="Email" />
-          <button className={styles.filterConfirmButton}>
+          <button
+            className={styles.filterConfirmButton}
+            aria-label="Subscribe For Updates"
+          >
             <ArrowIcon />
           </button>
         </div>

@@ -2,7 +2,7 @@ import "./globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: `Winston Francois &middot; All Blog Posts`,
+  title: `Winston Francois - All Blog Posts`,
 };
 
 export default function RootLayout({
